@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us | BuildStrong Construction</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.7;
+}
+
+header{
+    
+background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+ url("images/about.jpg");
+    
+background-size: cover;
+  
+background-position: center;
+    
+background-repeat: no-repeat;
+    
+height:80vh;
+    
+width:100%;
+
+}
+nav{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 25px;
+    background:transparent;
+    z-index:1000;
+ box-sizing:border-box;
+}
+/* Logo */
+.logo a{
+   
+ display:flex;
+    
+align-items:center;
+   
+   
+
+}
+
+
+
+.logo img{
+   
+ width:80px;
+    
+height:auto;
+   
+ display:block;
+
+    margin-right: 10px;
+}
+
+
+
+.logo h2{
+ 
+ 
+color:#ffffff;
+   
+ font-size:28px;
+  
+  font-weight:bold;
+white-space:nowrap;
+
+gap:10px; 
+}
+
+/* Menu */
+nav ul{
+    list-style:none;
+    display:flex;
+    align-items:center;
+    gap:18px;        /* Decrease gap between menu items */
+    margin:0px;
+    padding:0;
+justify-content: center;
+}
+
+nav ul li a{
+    color:#ffffff;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    color:#FFD700;
+}
+
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+   margin:60px auto 0;
+}
+
+.hero{
+    height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero h1{
+    color:#fff;
+    font-size:60px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    color:#fff;
+    font-size:22px;
+}
+
+.about{
+    
+display:flex;
+    
+gap:40px;
+   
+ align-items:center;
+  
+
+}
+
+
+
+.about-images{
+  
+  width:35%;
+  
+  display:flex;
+   
+ flex-direction:column;
+    
+  gap:20px;          
+}
+
+
+
+.about-images img{
+    
+width:100%;
+   
+ height:220px;
+  
+  object-fit:cover;
+  
+  border-radius:10px;
+  
+     border-radius:10px;
+margin-top:20px;
+
+}
+
+.about-text{
+   width:65%;
+}
+
+.about-text h2{
+    color:#ff9800;
+    margin-top:0;
+    margin-bottom:15px;
+    font-size:36px;
+
+}
+
+.about-text p{
+  
+    font-size:18px;
+    text-align:justify;
+    line-height:1.8;
+}
+
+.section-title{
+    text-align:center;
+    font-size:38px;
+    color:#ff9800;
+    margin-bottom:40px;
+  
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+margin-bottom:20px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.4s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#ff9800;
+    margin-bottom:15px;
+    font-size:28px;
+}
+
+.card p{
+    font-size:17px;
+}
+
+.stats{
+    background:#222;
+    color:white;
+    padding:20px 0;
+margin-bottom:40px;
+}
+
+.stats-container{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    text-align:center;
+    gap:30px;
+ margin-top:10px;
+margin-bottom:10px;
+}
+
+.stat h2{
+    color:#FFD700;
+    font-size:50px;
+}
+
+.stat p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+.cta{
+    background:#ff9800;
+    color:white;
+    text-align:center;
+    padding:10px 0px;
+
+ margin-bottom:30px;
+}
+
+.cta h2{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.cta p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.cta a{
+    background:white;
+    color:#ff9800;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:5px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+   
+ 
+<!-- Navigation -->
+   
+ <nav>
+
+       
+ <!-- Logo -->
+       
+ <div class="logo">
+     
+           <a href="index.html"> 
+      <img src="images/logo.png" alt="Shree Harsha Builders & Planners">
+  
+<h2>Sree Harsha Planners & Builders</h2>   
+  </a>        
+</div>
+
+      
+  <!-- Menu -->
+       
+ <ul>
+          
+  <li><a href="index.html">HOME</a></li>
+          
+  <li><a href="about.html">ABOUT US</a></li>
+     
+       <li><a href="services.html">SERVICES</a></li>
+     
+      
+       <li><a href="quality.html" class="active">QUALITY</a></li>
+     
+             
+     <li><a href="safty.html">SAFETY</a></li>
+       
+     <li><a href="projects.html">PROJECTS</a></li>
+   
+         <li><a href="contact.html">CONTACT</a></li>
+     
+   </ul>
+
+  
+  </nav>
+
+<div class="hero">
+<h1>About Us</h1>
+<p>Building Trust. Creating Quality. Delivering Excellence.</p>
+</div>
+</section>
+
+<div class="container">
+<div class="about">
+<div class="about-images">
+
+<img src="images/IMG_20260610_184210.png" alt="Construction Company">
+
+<img src="images/about-company.png" alt="Construction Company">
+</div>
+<div class="about-text">
+
+<h2>Who We Are</h2>
+
+<p>
+Sree Harsha Planners & Builders is a trusted construction company dedicated to delivering
+high-quality residential, commercial, and industrial projects. 
+</p>
+<br>
+<p>
+We combine modern technology, skilled professionals, and premium materials to build strong,
+safe, and beautiful structures.
+</p>
+
+<br>
+<p>
+Our experienced engineers, architects, and project managers work closely with
+clients from planning to project completion. Every project is completed with
+care, precision, and a commitment to customer satisfaction.
+</p>
+<br>
+<p>
+We believe every building reflects our reputation. That's why we focus on
+quality workmanship, transparent communication, timely delivery, and lasting
+relationships with our clients.
+</p>
+
+</div>
+
+</div>
+</div>
+
+<div class="container">
+
+<h2 class="section-title">Our Mission & Vision</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Our Mission</h3>
+<p>
+To provide reliable construction services through innovation, quality materials,
+professional workmanship, and customer-focused solutions while completing every
+project safely and on schedule.
+</p>
+</div>
+
+<div class="card">
+<h3>Our Vision</h3>
+<p>
+To become one of the most trusted construction companies by delivering
+outstanding projects that improve communities and exceed customer expectations.
+</p>
+</div>
+
+<div class="card">
+<h3>Our Values</h3>
+<p>
+&#10004; Quality Workmanship<br>
+&#10004; Safety First<br>
+&#10004; Honest Communication<br>
+&#10004; Customer Satisfaction<br>
+&#10004; On-Time Delivery
+</p>
+</div>
+
+</div>
+
+</div>
+
+<section class="stats">
+
+<div class="stats-container">
+
+<div class="stat">
+<h2>50+</h2>
+<p>Projects Completed</p>
+</div>
+
+<div class="stat">
+<h2>15+</h2>
+<p>Years Experience</p>
+</div>
+
+<div class="stat">
+<h2>30+</h2>
+<p>Professional Workers</p>
+</div>
+
+<div class="stat">
+<h2>100%</h2>
+<p>Client Satisfaction</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<h2>Let's Build Your Dream Project</h2>
+
+<p>
+Contact our experienced team today for quality construction services.
+</p>
+
+<a href="contact.html">Contact Us</a>
+
+</section>
+
+<footer>
+
+<p>&copy; 2010 Sree Harsha Construction. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>

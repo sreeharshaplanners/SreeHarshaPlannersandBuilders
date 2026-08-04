@@ -1,0 +1,428 @@
+/* ==========================
+   RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    color:#333;
+
+}
+
+/* ==========================
+   HEADER
+========================== */
+header{
+    
+background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+ url("images/background.jpg");
+    
+background-size: cover;
+  
+background-position: center;
+    
+background-repeat: no-repeat;
+    
+height:80vh;
+    
+width:100%;
+
+ 
+}
+
+
+nav{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 25px;
+    z-index:1000;
+}
+
+.logo a{
+    display:flex;
+    align-items:center;
+  
+    margin-right:20px;
+}
+
+.logo img{
+    width:80px;
+height:auto;
+    display:block;
+}
+
+.logo h2{
+    color:#fff;
+    font-size:28px;
+    margin-left:12px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:15px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:#fff;
+    font-size:15px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    color:#FFD700;
+}
+
+/* ==========================
+   HERO
+========================== */
+
+.hero{
+    height:450px;
+   
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    color:#fff;
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    color:#fff;
+    font-size:22px;
+}
+
+/* ==========================
+   COMMON SECTION
+========================== */
+
+section{
+    width:90%;
+    max-width:1300px;
+    margin:70px auto;
+}
+
+section h2{
+    text-align:center;
+    color:#003366;
+    font-size:36px;
+    margin-bottom:9px;
+    text-transform:uppercase;
+}
+
+section h2::after{
+    content:"";
+    width:90px;
+    height:4px;
+    background:#ff9800;
+    display:block;
+    margin:12px auto;
+}
+
+.section-title{
+    text-align:center;
+    color:#666;
+    font-size:18px;
+    margin-bottom:40px;
+}
+
+/* ==========================
+   CONSULTATION
+========================== */
+
+.consult-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:20px;
+}
+
+.consult-grid div{
+    background:#fff;
+    padding:20px;
+    border-left:5px solid #ff9800;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:bold;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.consult-grid div:hover{
+    background:#003366;
+    color:#fff;
+    transform:translateY(-5px);
+}
+
+/* ==========================
+   LOCATIONS
+========================== */
+
+.location-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:25px;
+}
+
+.location-card{
+    background:#fff;
+    padding:25px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.location-card:hover{
+    transform:translateY(-8px);
+    background:#003366;
+    color:#fff;
+}
+
+.location-card h3{
+    color:#ff9800;
+    margin-bottom:10px;
+    font-size:24px;
+}
+
+.location-card:hover h3{
+    color:#FFD700;
+}
+/* ==========================
+   AVAILABLE LOCATIONS
+========================== */
+
+.locations{
+    text-align:center;
+}
+
+.locations h2{
+    font-size:42px;
+    color:#003366;
+    font-weight:bold;
+    margin-bottom:15px;
+    text-transform:uppercase;
+}
+
+.locations h2::after{
+    content:"";
+    width:120px;
+    height:5px;
+    background:#ff9800;
+    display:block;
+    margin:15px auto;
+    border-radius:5px;
+}
+
+.location-text{
+    max-width:900px;
+    margin:0 auto 50px;
+    text-align:center;
+    font-size:22px;
+    line-height:36px;
+    color:#555;
+    font-weight:500;
+}
+
+/* ==========================
+   CONTACT
+========================== */
+
+.contact-top{
+    display:flex;
+    gap:20px;
+    align-items:stretch;
+    margin-top:40px;
+}
+
+.contact-info{
+    width:42%;
+    background:#fff;
+    padding:35px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+.contact-info h3{
+ font-size:30px;
+    color:#003366;
+    margin-bottom:20px;
+    border-left:5px solid #FFD700;
+    padding-left:12px;
+}
+
+.contact-info p{
+font-size:19px; 
+    margin-bottom:10px;
+    font-size:17px;
+line-height:34px;
+  
+  color:#333;
+ 
+   margin-bottom:15px;
+}
+
+.map-box{
+    width:65%;
+    background:#fff;
+    padding:10px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.map-box h3{
+    text-align:center;
+    color:#003366;
+    margin-bottom:15px;
+}
+
+.map-box iframe{
+    width:100%;
+    height:470px;
+    border:none;
+    border-radius:8px;
+}
+.contact-info strong{
+   
+ color:#003366;
+
+}
+
+/* ==========================
+   CONTACT FORM
+========================== */
+
+.contact-form{
+    width:60%;
+    margin:50px auto;
+    background:#fff;
+    padding:35px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.contact-form h3{
+    text-align:center;
+    color:#003366;
+    margin-bottom:25px;
+    font-size:30px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:18px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:16px;
+}
+
+.contact-form textarea{
+    resize:vertical;
+    min-height:160px;
+}
+
+.contact-form button{
+    display:block;
+    margin:auto;
+    background:#003366;
+    color:#fff;
+    border:none;
+    padding:15px 35px;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.contact-form button:hover{
+    background:#FFD700;
+    color:#003366;
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer{
+    background:#000;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    margin-top:60px;
+}
+
+footer p{
+    margin:0;
+    font-size:16px;
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media(max-width:768px){
+
+nav{
+    flex-direction:column;
+}
+
+.logo{
+    margin-bottom:15px;
+}
+
+nav ul{
+    flex-direction:column;
+    text-align:center;
+    gap:10px;
+}
+
+.hero{
+    height:250px;
+}
+
+.hero h1{
+    font-size:40px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.contact-top{
+    flex-direction:column;
+}
+
+.contact-info,
+.map-box,
+.contact-form{
+    width:100%;
+}
+
+.map-box iframe{
+    height:300px;
+}
+
+.contact-form{
+    margin-top:30px;
+}
+
+}
