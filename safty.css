@@ -7,7 +7,7 @@ color:#333;
 }
 
 header{
-background-image: url("images/background.jpg");
+background-image:linear-gradient(rgba(10,77,77,0.55), rgba(10,77,77,0.55)), url("images/background.jpg");
     
 background-size: cover;
   
@@ -19,12 +19,8 @@ height:80vh;
     
 width:100%;
   display:flex;
-   
- justify-content:space-between;
- 
+   justify-content:space-between;
    align-items:flex-start;
-
- 
    padding:15px 40px;
 
 }
@@ -38,8 +34,6 @@ display:flex;
 align-items:center;
 
 }
-
-
 .logo img{
     
 width:80px;
