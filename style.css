@@ -14,57 +14,31 @@ header{
     
 background-image:    linear-gradient(rgba(10,77,77,0.55), rgba(10,77,77,0.55)),
 url("images/backgroundhome.png");
-    
-background-size: cover;
-  
-background-position: center;
-    
-background-repeat: no-repeat;
-    
-height:80vh;
-    
-width:100%;
+    background-size: cover;
+  background-position: center;
+    background-repeat: no-repeat;
+    height:80vh;
+    width:100%;
  
 }
-
-
-
 .logo a {
-    
-display:flex;
-    
-align-items:center;
-
-
+    display:flex;
+    align-items:center;
  text-decoration:none;
 }
-
-
-
 .logo img{
-    
-width:80px;
-    
-height:auto;
-    
-   display:block;
+    width:80px;
+    height:auto;
+       display:block;
 background:transparent;
 }
-
-
-
-
 .logo h2{
-    
     color:#FFD700;      
 font-size:28px;
 
-  margin-left:12px;
 white-space:nowrap;
 }
-
-  nav{
-
+nav{
 position:absolute;
     top:0;
     left:0;
