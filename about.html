@@ -229,6 +229,222 @@ footer{
     text-align:center;
     padding:20px;
 }
+    /* ==========================
+   MOBILE RESPONSIVE
+========================== */
+
+@media (max-width:768px){
+
+    /* HEADER */
+    header{
+        height:auto;
+        min-height:100vh;
+        width:100%;
+    }
+
+    /* NAVIGATION */
+    nav{
+        position:relative;
+        width:100%;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        padding:15px 10px;
+    }
+
+    /* LOGO */
+    .logo a{
+        justify-content:center;
+        flex-direction:column;
+    }
+
+    .logo img{
+        width:70px;
+    }
+
+    .logo h2{
+        font-size:20px;
+        margin-left:0;
+        margin-top:8px;
+        text-align:center;
+        white-space:normal;
+    }
+
+    /* MENU */
+    nav ul{
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        gap:10px;
+        margin-top:15px;
+        width:100%;
+    }
+
+    nav ul li{
+        width:100%;
+        text-align:center;
+    }
+
+    nav ul li a{
+        font-size:16px;
+    }
+
+    /* HERO */
+    .hero{
+        height:350px;
+        width:100%;
+        padding:20px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+    }
+
+    .hero h1{
+        font-size:36px;
+        line-height:1.2;
+    }
+
+    .hero p{
+        font-size:18px;
+        line-height:1.5;
+    }
+
+    /* MAIN CONTAINER */
+    .container{
+        width:100%;
+        display:block;
+        margin:0 auto;
+    }
+
+    .left-side,
+    .right-side{
+        width:100%;
+    }
+
+    /* ABOUT SECTION */
+    .about{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        gap:25px;
+    }
+
+    .about-images{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .about-images img{
+        width:100%;
+        height:auto;
+        max-height:300px;
+        object-fit:cover;
+    }
+
+    .about-text{
+        width:100%;
+    }
+
+    .about-text h2{
+        font-size:30px;
+        text-align:center;
+        margin-bottom:15px;
+    }
+
+    .about-text p{
+        width:100%;
+        font-size:17px;
+        line-height:1.7;
+        text-align:left;
+    }
+
+    /* COMMON SECTIONS */
+    section{
+        width:100%;
+        padding:40px 20px;
+        margin:0 auto;
+    }
+
+    section h2{
+        font-size:30px;
+    }
+
+    .section-title{
+        font-size:27px;
+    }
+
+    /* CARDS */
+    .cards{
+        flex-direction:column;
+        align-items:center;
+        gap:20px;
+    }
+
+    .card{
+        width:100%;
+        max-width:350px;
+        padding:18px;
+    }
+
+    .card h3{
+        font-size:22px;
+    }
+
+    .card p{
+        font-size:15px;
+    }
+
+    /* STATS */
+    .stats-container{
+        grid-template-columns:1fr;
+    }
+
+    .stat h2{
+        font-size:32px;
+    }
+
+    .stat p{
+        font-size:15px;
+    }
+
+    /* CTA */
+    .cta{
+        padding:30px 15px;
+    }
+
+    .cta h2{
+        font-size:26px;
+    }
+
+    .cta p{
+        font-size:15px;
+    }
+
+    .cta a{
+        display:inline-block;
+        font-size:15px;
+        padding:10px 20px;
+    }
+
+    /* FOOTER */
+    footer{
+        width:100%;
+        padding:20px 15px;
+        font-size:13px;
+    }
+
+    footer h2{
+        font-size:22px;
+    }
+
+    footer p{
+        font-size:14px;
+    }
+}
 </style>
 </head>
 
