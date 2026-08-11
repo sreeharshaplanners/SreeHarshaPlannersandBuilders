@@ -299,9 +299,7 @@ footer{
     }
 
     .logo a{
-        display:flex;
-        align-items:center;
-        justify-content:center;
+        margin-bottom:15px;
     }
 
     .logo h2{
@@ -326,32 +324,33 @@ footer{
 
     /* HEADER */
     header{
-        height:60vh;
+     height:auto;
+        min-height:100vh;
     }
 
 
     /* HERO */
     .hero{
-        height:60vh;
+        height:350px;
         padding:20px;
         display:flex;
         flex-direction:column;
         justify-content:flex-end;
         align-items:center;
         text-align:center;
-        padding-bottom:70px;
+      
     }
 
     .hero h1{
         font-size:34px;
         line-height:1.2;
-        margin-bottom:12px;
+      
     }
 
     .hero p{
         font-size:18px;
         line-height:1.5;
-        margin-bottom:20px;
+
     }
 
     .btn{
