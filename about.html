@@ -229,11 +229,13 @@ footer{
     text-align:center;
     padding:20px;
 }
-   @media (max-width:768px){
+  @media (max-width:768px){
 
+    /* NAVIGATION */
     nav{
-        flex-direction:column;
         position:relative;
+        flex-direction:column;
+        align-items:center;
         padding:15px;
     }
 
@@ -241,23 +243,32 @@ footer{
         margin-bottom:15px;
     }
 
+    .logo a{
+        justify-content:center;
+        align-items:center;
+    }
+
     .logo h2{
         font-size:22px;
         text-align:center;
         white-space:normal;
+        margin-left:8px;
     }
 
     nav ul{
         flex-direction:column;
+        align-items:center;
         text-align:center;
         gap:10px;
         margin-top:10px;
     }
 
+    /* HEADER */
     header{
         height:60vh;
     }
 
+    /* HERO */
     .hero{
         height:60vh;
         padding:20px;
@@ -265,17 +276,21 @@ footer{
 
     .hero h1{
         font-size:36px;
+        line-height:1.2;
     }
 
     .hero p{
         font-size:18px;
+        line-height:1.5;
     }
 
+    /* CONTAINER */
     .container{
         width:95%;
         margin:30px auto;
     }
 
+    /* ABOUT */
     .about{
         flex-direction:column;
         gap:20px;
@@ -287,6 +302,7 @@ footer{
     }
 
     .about-images img{
+        width:100%;
         height:auto;
     }
 
@@ -297,52 +313,73 @@ footer{
 
     .about-text p{
         font-size:16px;
+        line-height:1.7;
+        text-align:justify;
     }
 
+    /* SECTION */
     .section-title{
-        font-size:30px;
+        font-size:27px;
     }
 
+    /* CARDS */
     .cards{
         grid-template-columns:1fr;
         gap:20px;
     }
 
     .card{
-        padding:20px;
+        width:100%;
+        padding:18px;
     }
 
     .card h3{
-        font-size:24px;
+        font-size:22px;
     }
 
+    .card p{
+        font-size:15px;
+    }
+
+    /* STATS */
     .stats-container{
         grid-template-columns:1fr;
+        gap:20px;
     }
 
     .stat h2{
-        font-size:40px;
+        font-size:32px;
     }
 
+    .stat p{
+        font-size:13px;
+    }
+
+    /* CTA */
     .cta{
         padding:30px 15px;
     }
 
     .cta h2{
-        font-size:28px;
+        font-size:26px;
     }
 
     .cta p{
-        font-size:18px;
+        font-size:15px;
     }
 
     .cta a{
         display:inline-block;
-        padding:12px 25px;
-        font-size:18px;
+        font-size:15px;
+        padding:10px 20px;
     }
-}
 
+    /* FOOTER */
+    footer{
+        font-size:13px;
+    }
+
+}
 </style>
 </head>
 
