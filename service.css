@@ -334,52 +334,116 @@ footer p{
    MOBILE
 ========================== */
 
+/* ==========================
+   MOBILE
+========================== */
+
 @media(max-width:768px){
 
-nav{
-    flex-direction:column;
-    position:relative;
-    background:#003366;
-    padding:20px;
-}
+    /* HEADER + NAV */
+    header{
+        height:650px;
+    }
 
-.logo{
-    flex-direction:column;
-}
+    nav{
+        position:relative;
+        flex-direction:column;
+        padding:15px 10px;
+        background:transparent;
+    }
 
-.logo h2{
-    margin:10px 0;
-    text-align:center;
-}
+    /* LOGO + COMPANY NAME */
+    .logo{
+        flex-direction:row;
+        padding:0;
+        margin-bottom:15px;
+    }
 
-nav ul{
-    flex-direction:column;
-    text-align:center;
-    margin-top:15px;
-}
+    .logo img{
+        width:65px;
+    }
 
-nav ul li{
-    margin:10px 0;
-}
+    .logo h2{
+        font-size:21px;
+        margin-left:8px;
+        padding:0;
+        white-space:normal;
+    }
 
-.hero{
-    height:280px;
-}
+    /* MENU */
+    nav ul{
+        flex-direction:column;
+        gap:10px;
+        margin:0;
+    }
 
-.hero h1{
-    font-size:38px;
-}
+    nav ul li{
+        margin:0;
+    }
 
-.hero p{
-    font-size:18px;
-}
+    nav ul li a{
+        font-size:16px;
+    }
 
-section h2{
-    font-size:30px;
-}
+    /* HERO */
+    .hero{
+        position:absolute;
+        height:auto;
+        top:380px;
+        padding:0 15px;
+    }
 
-.why-us ul{
-    columns:1;
-}
+    .hero h1{
+        font-size:38px;
+    }
 
+    .hero p{
+        font-size:17px;
+    }
+
+    /* SECTION */
+    section{
+        width:92%;
+        margin:40px auto;
+    }
+
+    section h2{
+        font-size:28px;
+    }
+
+    section p{
+        font-size:16px;
+    }
+
+    /* SERVICES */
+    .services-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    /* PROCESS */
+    .process-grid{
+        grid-template-columns:1fr;
+        gap:15px;
+    }
+
+    /* WHY US */
+    .why-us{
+        padding:25px 20px;
+    }
+
+    .why-us ul{
+        columns:1;
+    }
+
+    /* CTA */
+    .cta{
+        padding:40px 20px;
+    }
+
+    /* FOOTER */
+    footer{
+        margin-top:40px;
+        padding:18px 10px;
+    }
 }
