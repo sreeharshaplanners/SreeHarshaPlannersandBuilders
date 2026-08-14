@@ -133,11 +133,9 @@ margin-top:50px;
       padding:0;      
         margin-bottom:15px;
     }
-
     .logo img{
         width:65px;
-     
-    }
+         }
 
     .logo h2{
         font-size:21px;
@@ -149,7 +147,7 @@ margin-top:50px;
     /* MENU */
     nav ul{
         flex-direction:column;
-        gap:10px;
+        gap:15px;
         margin:0;
     }
  nav ul li{
@@ -164,7 +162,7 @@ margin-top:50px;
     .hero{
         position:absolute;
         height:auto;
-        top:380px;
+        top:330px;
         padding:0 15px;
     }
 
