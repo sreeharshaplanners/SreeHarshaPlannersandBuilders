@@ -117,6 +117,8 @@ margin-top:50px;
 
     header{
         height:700px;
+        background-size:cover;
+        background-position:center;
     }
 
     nav{
@@ -124,24 +126,33 @@ margin-top:50px;
         padding:15px 10px;
     }
 
+    /* LOGO LEFT + COMPANY NAME RIGHT */
     .logo{
-        flex-direction:column;
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:center;
         margin-bottom:15px;
     }
 
     .logo img{
-        width:70px;
+        width:65px;
+        height:auto;
     }
 
     .logo h2{
-        font-size:22px;
-        margin:5px 0 0;
-        text-align:center;
+        font-size:21px;
+        margin-left:8px;
+        text-align:left;
+        line-height:1.2;
     }
 
+    /* MENU */
     nav ul{
         flex-direction:column;
         gap:10px;
+        margin:0;
+        padding:0;
     }
 
     nav ul li a{
@@ -149,24 +160,25 @@ margin-top:50px;
         margin:0;
     }
 
+    /* HERO */
     .hero{
+        width:100%;
         margin-top:50px;
         padding:0 15px;
+        box-sizing:border-box;
+        text-align:center;
     }
 
     .hero h1{
         font-size:38px;
+        line-height:1.2;
     }
 
     .hero p{
         font-size:17px;
+        line-height:1.5;
     }
-
-    .content{
-        width:90%;
-        margin:30px auto;
-    }
-
+}
     .content h2{
         font-size:30px;
     }
