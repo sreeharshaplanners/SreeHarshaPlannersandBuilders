@@ -297,13 +297,11 @@ footer{
     .logo{
         margin-bottom:15px;
     }
-
-    .logo a{
-        margin-bottom:15px;
+     .logo img{
+        width:65px;
     }
-
     .logo h2{
-        font-size:22px;
+        font-size:21px;
         text-align:center;
         white-space:normal;
         margin-left:8px;
@@ -314,23 +312,28 @@ footer{
         align-items:center;
         text-align:center;
         gap:10px;
-        margin-top:10px;
+       margin:0;
+    }
+  nav ul li{
+        margin:0;
     }
 
     nav ul li a{
-        font-size:15px;
+        font-size:16px;
     }
     /* HEADER */
     header{
-     height:auto;
-        min-height:100vh;
-    }
+     height:650px;
+          }
     /* HERO */
     .hero{
-     position:absolute;
-        height:auto;
-        top:380px;
-        padding:0 15px;
+  height:350px;
+        padding:20px;
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-end;
+        align-items:center;
+        text-align:center;
           }
     .hero h1{
         font-size:34px;
