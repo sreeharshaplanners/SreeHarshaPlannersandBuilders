@@ -325,63 +325,56 @@ RESPONSIVE
 @media (max-width:768px){
 
     header{
-        height:700px;
-        background-size:cover;
-        background-position:center;
-    }
+        height:650px;
+          }
 
     nav{
         flex-direction:column;
-        padding:15px 10px;
+        padding:15px
     }
 
     /* LOGO LEFT + COMPANY NAME RIGHT */
     .logo{
-        display:flex;
-        flex-direction:row;
-        align-items:center;
-        justify-content:center;
+     flex-direction:row;
+        padding:0;
         margin-bottom:15px;
     }
 
     .logo img{
         width:65px;
-        height:auto;
-    }
+         }
 
     .logo h2{
         font-size:21px;
         margin-right:8px;
-        text-align:right;
-        line-height:1.2;
-    }
+     padding:0;
+        white-space:normal;
+         }
 
     /* MENU */
     nav ul{
         flex-direction:column;
         gap:10px;
         margin:0;
-        padding:0;
-    }
-
-    nav ul li a{
-        font-size:16px;
+      }
+ nav ul li{
         margin:0;
     }
+    nav ul li a{
+        font-size:16px;
+      }
 
     /* HERO */
     .hero{
-        width:100%;
-        margin-top:50px;
+       position:absolute;
+        height:auto;
+        top:380px;
         padding:0 15px;
-        box-sizing:border-box;
-        text-align:center;
     }
 
     .hero h1{
         font-size:38px;
-        line-height:1.2;
-    }
+         }
 
     .hero p{
         font-size:17px;
