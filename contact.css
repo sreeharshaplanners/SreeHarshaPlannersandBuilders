@@ -368,51 +368,47 @@ footer p{
 /* ==========================
    MOBILE
 ========================== */
-
-@media (max-width:768px){
-
 @media (max-width:768px){
 
     header{
-        height:700px;
-        background-size:cover;
-        background-position:center;
+        height:650px;
     }
 
     nav{
+        position:relative;
         flex-direction:column;
-        padding:15px 10px;
+        padding:15px;
+align-items:center;
+        background:transparent;
     }
 
     /* LOGO LEFT + COMPANY NAME RIGHT */
     .logo{
-        display:flex;
-        flex-direction:row;
-        align-items:center;
-        justify-content:center;
-        margin-bottom:15px;
+                margin-bottom:15px;
     }
 
     .logo img{
         width:65px;
-        height:auto;
     }
 
     .logo h2{
         font-size:21px;
         margin-left:8px;
-        text-align:left;
-        line-height:1.2;
-    }
+        text-align:center;
+       white-space:normal;
+        }
 
     /* MENU */
     nav ul{
         flex-direction:column;
         gap:10px;
         margin:0;
-        padding:0;
+          align-items:center;   
+     text-align:center;
     }
-
+  nav ul li{
+        margin:0;
+    }
     nav ul li a{
         font-size:16px;
         margin:0;
@@ -420,10 +416,12 @@ footer p{
 
     /* HERO */
     .hero{
-        width:100%;
-        margin-top:50px;
-        padding:0 15px;
-        box-sizing:border-box;
+           height:350px;
+        padding:20px;
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-end;
+        align-items:center;
         text-align:center;
     }
 
