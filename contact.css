@@ -394,7 +394,7 @@ align-items:center;
     .logo h2{
         font-size:21px;
         margin-left:8px;
-        text-align:left;
+        text-align:center;
        white-space:normal;
         }
 
@@ -411,9 +411,7 @@ align-items:center;
     }
     nav ul li a{
         font-size:16px;
-        margin:0;
     }
-
     /* HERO */
     .hero{
          position:absolute;
@@ -421,12 +419,9 @@ align-items:center;
         top:380px;
         padding:0 15px;
     }
-
     .hero h1{
         font-size:38px;
-    
-    }
-
+        }
     .hero p{
         font-size:17px;
         line-height:1.5;
