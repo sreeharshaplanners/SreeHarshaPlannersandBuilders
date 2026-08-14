@@ -21,6 +21,19 @@ body{
 /* ==========================
    HEADER
 ========================== */
+
+    header{
+background:
+    linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url("images/Quality.png");
+background-size:cover;
+    background-position:center;
+background-repeat: no-repeat;
+    
+height:80vh;
+    
+width:100%;
+ }
 nav{
     position:absolute;
     top:0;
@@ -75,24 +88,21 @@ nav ul li a.active{
 /* Hero */
 
 .hero{
-    background:
-    linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
-    url("images/Quality.png");
-    background-size:cover;
-    background-position:center;
-    height:500px;
+    height:80vh;
     display:flex;
     justify-content:center;
     align-items:center;
+    flex-direction:column;
     text-align:center;
-    color:#fff;
 }
 .hero h1{
     font-size:50px;
     margin-bottom:15px;
+    color:white;
 }
 .hero p{
     font-size:22px;
+    color:white;
 }
 
 /* Section */
@@ -237,9 +247,10 @@ padding:20px;
 
     /* LOGO + COMPANY NAME */
     .logo{
-       padding:0;
+   
         flex-direction:row;
         margin-bottom:15px;
+            padding:0;
     }
 
     .logo img{
