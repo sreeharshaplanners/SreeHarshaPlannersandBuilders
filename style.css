@@ -320,39 +320,26 @@ footer{
     nav ul li a{
         font-size:15px;
     }
-
-
     /* HEADER */
     header{
      height:auto;
         min-height:100vh;
     }
-
-
     /* HERO */
     .hero{
-        height:350px;
-        padding:20px;
-        display:flex;
-        flex-direction:column;
-        justify-content:flex-end;
-        align-items:center;
-        text-align:center;
-      
-    }
-
+     position:absolute;
+        height:auto;
+        top:380px;
+        padding:0 15px;
+          }
     .hero h1{
         font-size:34px;
         line-height:1.2;
-      
-    }
-
+          }
     .hero p{
         font-size:18px;
         line-height:1.5;
-
     }
-
     .btn{
         display:inline-block;
         padding:12px 25px;
