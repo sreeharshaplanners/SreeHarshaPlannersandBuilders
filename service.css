@@ -42,7 +42,7 @@ nav{
     z-index:1000;
 }
 
-.logo{
+.logo {
     display:flex;
     align-items:center;
 padding:25px 40px 15px;
@@ -60,6 +60,7 @@ padding:25px 40px 15px;
     font-size:22px;
  white-space:nowrap;
 padding:0px 0px 15px;
+    text-decoration:none;
 }
 /* Menu */
 nav ul{
