@@ -277,7 +277,10 @@ footer{
 }
 
 @media (max-width:768px){
-
+    /* HEADER */
+    header{
+     height:600px;
+          }
     /* NAVIGATION */
     nav{
         position:relative;
@@ -286,7 +289,9 @@ footer{
         padding:15px;
     }
 
-    .logo{
+    .logo a{
+     flex-direction:row;
+        padding:0;
         margin-bottom:15px;
     }
      .logo img{
@@ -296,13 +301,11 @@ footer{
         font-size:21px;
         text-align:center;
         white-space:normal;
-        margin-left:4px;
+        margin-left:8px;
     }
 
     nav ul{
         flex-direction:column;
-        align-items:center;
-        text-align:center;
         gap:10px;
        margin:0;
     }
@@ -313,26 +316,19 @@ footer{
     nav ul li a{
         font-size:16px;
     }
-    /* HEADER */
-    header{
-     height:600px;
-          }
+
     /* HERO */
     .hero{
-  height:300px;
-        padding:20px;
-        display:flex;
-        flex-direction:column;
-        justify-content:flex-end;
-        align-items:center;
-        text-align:center;
+  position:absolute;
+        height:auto;
+        top:380px;
+        padding:0 15px;
           }
     .hero h1{
-        font-size:34px;
-        line-height:1.2;
-          }
+        font-size:38px;
+              }
     .hero p{
-        font-size:18px;
+        font-size:17px;
         line-height:1.5;
     }
     .btn{
