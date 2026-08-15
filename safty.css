@@ -29,6 +29,7 @@ height:auto;
 color:white;
    font-size:28px;
 margin-left:12px;
+     text-decoration:none;
 }
 nav {
     display:flex;   
