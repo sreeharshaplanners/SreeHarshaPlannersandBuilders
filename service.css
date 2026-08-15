@@ -42,7 +42,7 @@ nav{
     z-index:1000;
 }
 
-.logo {
+.logo a {
     display:flex;
     align-items:center;
 padding:25px 40px 15px;
@@ -321,7 +321,7 @@ footer p{
         background:transparent;
     }
     /* LOGO + COMPANY NAME */
-    .logo{
+    .logo a{
         flex-direction:row;
         padding:0;
         margin-bottom:15px;
