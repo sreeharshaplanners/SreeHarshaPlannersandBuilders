@@ -21,19 +21,11 @@ body{
 
 header{
  background:
-       
- linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)),
-    
-    url("images/servicebackground.jpg");
-
- 
+        linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)),
+        url("images/servicebackground.jpg");
    background-size:cover;
-  
-  background-position:center;
-   
- background-repeat:no-repeat;
-
- 
+    background-position:center;
+    background-repeat:no-repeat;
    height:450px;
     position:relative;
 }
@@ -333,11 +325,6 @@ footer p{
 /* ==========================
    MOBILE
 ========================== */
-
-/* ==========================
-   MOBILE
-========================== */
-
 @media(max-width:768px){
 
     /* HEADER + NAV */
@@ -351,21 +338,19 @@ footer p{
         padding:15px;
         background:transparent;
     }
-
     /* LOGO + COMPANY NAME */
     .logo{
         flex-direction:row;
         padding:0;
         margin-bottom:15px;
     }
-
     .logo img{
         width:65px;
     }
 
     .logo h2{
         font-size:21px;
-        margin-left:8px;
+        margin-left:2px;
         padding:0;
         white-space:normal;
     }
