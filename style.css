@@ -81,17 +81,13 @@ height:80vh;
     align-items:center;
     flex-direction:column;
     text-align:center;
-
 }
-
 .hero h1{
 font-size:55px;
 color:#ffd700;
 margin-bottom:15px;
 }
-
 .hero p{
-
 font-size:22px;
 color:white;
 }
@@ -109,10 +105,8 @@ padding:20px 80px;
 text-align:center;
 }
 .about p{
-    
-font-size:20px;
-    
-line-height:1.8;
+    font-size:20px;
+    line-height:1.8;
 
 }
 .cards{
@@ -122,7 +116,6 @@ gap:30px;
 margin-top:40px;
 flex-wrap:wrap;
 }
-
 .card{
 width:300px;
 padding:30px;
@@ -130,7 +123,6 @@ background:#f4f4f4;
 border-radius:10px;
 box-shadow:0 5px 15px rgba(0,0,0,.1);
 }
-
 .gallery{
 display:flex;
 justify-content:center;
