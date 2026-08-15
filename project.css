@@ -63,6 +63,7 @@ nav{
     margin-left:12px;
     font-size:248x;
     white-space:nowrap;
+     text-decoration:none;
 }
 nav ul{
     display:flex;
