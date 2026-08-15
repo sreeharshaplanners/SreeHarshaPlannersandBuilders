@@ -326,7 +326,7 @@ RESPONSIVE
 @media (max-width:768px){
 
     header{
-        height:650px;
+        height:600px;
           }
 
     nav{
@@ -369,7 +369,7 @@ RESPONSIVE
     .hero{
        position:absolute;
         height:auto;
-        top:380px;
+        top:400px;
         padding:0 15px;
     }
 
