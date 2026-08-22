@@ -28,7 +28,7 @@ header{
     background-repeat:no-repeat;
    height:80vh;
     width:100%;
-   
+  
 }
 
 nav{
@@ -41,7 +41,7 @@ nav{
     align-items:center;
     padding:10px 25px;
     z-index:1000;
-    box-sizing:border-box;
+ box-sizing:border-box;
 }
 
 .logo a {
@@ -52,12 +52,16 @@ nav{
 .logo img{
     width:80px;
  height:auto;
-       display:block;
+    display:block;
 }
+
 .logo h2{
     color:#FFD700;
     margin-left:12px;
     font-size:28px;
+ white-space:nowrap;
+
+  
 }
 /* Menu */
 nav ul{
@@ -65,8 +69,9 @@ nav ul{
     list-style:none;
     margin-top:18px;
     gap:15px;
-   
+
 }
+
 nav ul li a{
     color:#fff;
     text-decoration:none;
@@ -84,22 +89,22 @@ nav ul li a.active{
    HERO
 ========================== */
 .hero{
-        height:80vh;
+    height:80vh;
     display:flex;
     justify-content:center;
     align-items:center;
     flex-direction:column;
     text-align:center;
-   top:380;
 }
 .hero h1{
     color:#fff;
-    font-size:40px;
-   margin-bottom:15px;
+    font-size:55px;
+      margin-bottom:15px;
 }
 .hero p{
     color:#fff;
     font-size:22px;
+
 }
 /* ==========================
    COMMON SECTION
