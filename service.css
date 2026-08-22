@@ -28,7 +28,6 @@ header{
     background-repeat:no-repeat;
    height:80vh;
     width:100%;
-    position:relative;
 }
 
 nav{
@@ -39,40 +38,36 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:25px 40px 15px;
+    padding:10px 25px;
     z-index:1000;
+    box-sizing:border-box;
 }
 
 .logo a {
     display:flex;
     align-items:center;
-padding:25px 40px 15px;
      text-decoration:none;
 }
 .logo img{
     width:80px;
  height:auto;
+       display:block;
 
 }
 
 .logo h2{
     color:#FFD700;
     margin-left:12px;
-    font-size:22px;
- white-space:nowrap;
-padding:0px 0px 15px;
-  
+    font-size:28px;
+ white-space:nowrap;  
 }
 /* Menu */
 nav ul{
     display:flex;
     list-style:none;
-    margin-left:auto;
-    gap:25px;
-    align-items:center;
-}
-nav ul li{
-    list-style:none;
+    margin-top:18px;
+    gap:15px;
+   
 }
 nav ul li a{
     color:#fff;
@@ -91,28 +86,21 @@ nav ul li a.active{
    HERO
 ========================== */
 .hero{
-    position:absolute;
-    top:0px;
-    left:0;
-    width:100%;
- height:100%;
- display:flex;
- flex-direction:column;
-   justify-content:center;
-  align-items:center;
- text-align:center;
+        height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
 }
 .hero h1{
     color:#fff;
-    font-size:50px;
-    font-weight:700;
-   text-transform:uppercase;
- margin:0;
+    font-size:55px;
+   margin-bottom:15px;
 }
 .hero p{
     color:#fff;
     font-size:22px;
-margin-top:15px;
 }
 /* ==========================
    COMMON SECTION
