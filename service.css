@@ -21,7 +21,7 @@ body{
 
 header{
  background:
-        linear-gradient(rgba(0,0,0,.60), rgba(0,0,0,.60)),
+        linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
         url("images/servicebackground.jpg");
    background-size:cover;
     background-position:center;
@@ -98,7 +98,7 @@ nav ul li a.active{
 }
 .hero h1{
     color:#fff;
-    font-size:55px;
+    font-size:40px;
       margin-bottom:15px;
 }
 .hero p{
@@ -290,7 +290,7 @@ footer p{
        align-items:center;
     }
     /* LOGO + COMPANY NAME */
-    .logo  {
+    .logo a {
         flex-direction:row;
         padding:0;
         margin-bottom:15px;
