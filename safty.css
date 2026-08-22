@@ -161,7 +161,7 @@ margin-top:50px;
     .hero{
         position:absolute;
         height:auto;
-        top:330px;
+        top:300px;
         padding:0 15px;
     }
 
@@ -172,7 +172,7 @@ margin-top:50px;
 
     .hero p{
         font-size:17px;
-        line-height:1.5;
+        line-height:1;
     }
 }
     .content h2{
