@@ -324,7 +324,7 @@ footer p{
     /* LOGO + COMPANY NAME */
     .logo a{
         flex-direction:row;
-        padding:0;
+        padding:15px;
         margin-bottom:15px;
        margin-left:10px;
            }
