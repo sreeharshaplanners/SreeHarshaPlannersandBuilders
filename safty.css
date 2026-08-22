@@ -131,19 +131,16 @@ margin-top:50px;
           flex-direction:row;
       padding:0;      
         margin-bottom:15px;
-        margin-right:10px;
-    }
+          }
     .logo img{
         width:65px;
          }
-
     .logo h2{
         font-size:21px;
         margin-left:8px;
        padding:0;
         white-space:normal;
     }
-
     /* MENU */
     nav ul{
         flex-direction:column;
@@ -165,12 +162,9 @@ margin-top:50px;
         top:300px;
         padding:0 15px;
     }
-
     .hero h1{
         font-size:38px;
-  
-    }
-
+      }
     .hero p{
         font-size:17px;
         line-height:1;
