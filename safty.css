@@ -36,6 +36,7 @@ height:auto;
 .logo h2{   
 color:#FFD700;
    font-size:28px;
+      font-weight:bold;
 margin-left:12px;
   }
 nav {
@@ -136,14 +137,15 @@ margin-top:50px;
         padding:15px;
         align-items:center;
         background:transparent;
-        margin-top:10px;
+
     }
 
     /* LOGO LEFT + COMPANY NAME RIGHT */
     .logo a{
           flex-direction:row;
       padding:0;      
-        margin-bottom:15px;
+        margin-bottom:10px;
+              
           }
     .logo img{
         width:65px;
