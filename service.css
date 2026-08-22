@@ -26,7 +26,8 @@ header{
    background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
-   height:450px;
+   height:80vh;
+    width:100%;
    
 }
 
@@ -83,12 +84,13 @@ nav ul li a.active{
    HERO
 ========================== */
 .hero{
-        height:450px;
+        height:80vh;
     display:flex;
     justify-content:center;
     align-items:center;
     flex-direction:column;
     text-align:center;
+   top:380;
 }
 .hero h1{
     color:#fff;
