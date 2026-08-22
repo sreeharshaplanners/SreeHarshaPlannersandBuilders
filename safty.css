@@ -141,10 +141,10 @@ margin-top:50px;
     }
 
     /* LOGO LEFT + COMPANY NAME RIGHT */
-    .logo a{
+    .logo {
           flex-direction:row;
       padding:0;      
-        margin-bottom:10px;
+        margin-bottom:15px;
               
           }
     .logo img{
