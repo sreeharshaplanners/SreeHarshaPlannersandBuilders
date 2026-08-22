@@ -43,7 +43,7 @@ nav{
     box-sizing:border-box;
 }
 
-.logo a {
+.logo  {
     display:flex;
     align-items:center;
      text-decoration:none;
