@@ -320,13 +320,14 @@ footer p{
         flex-direction:column;
         padding:15px;
         background:transparent;
+       align-items:center;
     }
     /* LOGO + COMPANY NAME */
-    .logo a{
+    .logo {
         flex-direction:row;
-        padding:15px;
+        padding:0;
         margin-bottom:15px;
-       margin-left:10px;
+   
            }
     .logo img{
         width:65px;
@@ -358,7 +359,7 @@ footer p{
     .hero{
         position:absolute;
         height:auto;
-        top:400px;
+        top:380px;
         padding:0 15px;
     }
 
