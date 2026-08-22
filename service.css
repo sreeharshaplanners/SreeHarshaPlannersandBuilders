@@ -323,12 +323,11 @@ footer p{
        align-items:center;
     }
     /* LOGO + COMPANY NAME */
-    .logo {
+    .logo a {
         flex-direction:row;
         padding:0;
         margin-bottom:15px;
-   
-           }
+              }
     .logo img{
         width:65px;
     }
