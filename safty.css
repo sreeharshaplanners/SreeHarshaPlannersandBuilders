@@ -17,9 +17,10 @@ width:100%;
    display:flex;
     flex-direction:column;
 }
-.logo{
+.logo a{
     display:flex;
     align-items:center;
+       text-decoration: none;
 }
 .logo img{    
 width:80px;  
@@ -29,8 +30,7 @@ height:auto;
 color:white;
    font-size:28px;
 margin-left:12px;
-     text-decoration:none;
-}
+  }
 nav {
     display:flex;   
     padding:15px 40px;
