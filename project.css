@@ -59,11 +59,10 @@ nav{
        display:block;
 }
 .logo h2{
-    color:#fff;
+    color:#FFD700;
     margin-left:12px;
-    font-size:248x;
+    font-size:28x;
     white-space:nowrap;
-     text-decoration:none;
 }
 nav ul{
     display:flex;
@@ -103,29 +102,24 @@ HERO
     font-size:55px;
     margin-bottom:15px;
 }
-
 .hero p{
     color:#fff;
     font-size:22px;
 }
-
 /*=========================
 COMMON SECTION
 =========================*/
-
 section{
     width:90%;
     max-width:1300px;
     margin:45px auto;
 }
-
 section h2{
     text-align:center;
     color:#003366;
     font-size:38px;
     text-transform:uppercase;
 }
-
 section h2::after{
     content:"";
     width:90px;
@@ -228,7 +222,6 @@ PROJECT CATEGORIES
 }
 
 /* Available Locations */
-
 .locations{
     width:90%;
     max-width:1200px;
@@ -328,12 +321,10 @@ RESPONSIVE
     header{
         height:600px;
           }
-
     nav{
         flex-direction:column;
         padding:15px
     }
-
     /* LOGO LEFT + COMPANY NAME RIGHT */
     .logo{
      flex-direction:row;
