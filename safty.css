@@ -115,7 +115,6 @@ margin-top:50px;
    MOBILE RESPONSIVE
 ========================== */
 @media (max-width:768px){
-
     header{
         height:600px;
           }
@@ -147,7 +146,7 @@ margin-top:50px;
     /* MENU */
     nav ul{
         flex-direction:column;
-        gap:10px;
+        gap:15px;
         margin:0;
     }
  nav ul li{
@@ -162,7 +161,7 @@ margin-top:50px;
     .hero{
         position:absolute;
         height:auto;
-        top:380px;
+        top:330px;
         padding:0 15px;
     }
 
