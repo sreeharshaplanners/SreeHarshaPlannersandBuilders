@@ -90,6 +90,7 @@ nav ul li a.active{
 ========================== */
 .hero{
     height:80vh;
+   top:300;
     display:flex;
     justify-content:center;
     align-items:center;
